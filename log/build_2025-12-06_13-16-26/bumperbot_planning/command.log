@@ -1,0 +1,2 @@
+Invoking command in '/home/behzad/ros2_ws/build/bumperbot_planning': /usr/bin/cmake --build /home/behzad/ros2_ws/build/bumperbot_planning -- -j12 -l12
+Invoked command in '/home/behzad/ros2_ws/build/bumperbot_planning' returned '2': /usr/bin/cmake --build /home/behzad/ros2_ws/build/bumperbot_planning -- -j12 -l12

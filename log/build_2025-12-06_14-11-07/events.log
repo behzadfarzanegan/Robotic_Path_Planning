@@ -1,0 +1,264 @@
+[0.000000] (-) TimerEvent: {}
+[0.000164] (-) JobUnselected: {'identifier': 'bumperbot_bringup'}
+[0.000212] (-) JobUnselected: {'identifier': 'bumperbot_controller'}
+[0.000264] (-) JobUnselected: {'identifier': 'bumperbot_cpp_examples'}
+[0.000312] (-) JobUnselected: {'identifier': 'bumperbot_description'}
+[0.000347] (-) JobUnselected: {'identifier': 'bumperbot_firmware'}
+[0.000397] (-) JobUnselected: {'identifier': 'bumperbot_localization'}
+[0.000443] (-) JobUnselected: {'identifier': 'bumperbot_mapping'}
+[0.000820] (-) JobUnselected: {'identifier': 'bumperbot_msgs'}
+[0.001023] (-) JobUnselected: {'identifier': 'bumperbot_py_examples'}
+[0.001371] (-) JobUnselected: {'identifier': 'bumperbot_utils'}
+[0.001411] (bumperbot_planning) JobQueued: {'identifier': 'bumperbot_planning', 'dependencies': OrderedDict()}
+[0.001443] (bumperbot_planning) JobStarted: {'identifier': 'bumperbot_planning'}
+[0.013510] (bumperbot_planning) JobProgress: {'identifier': 'bumperbot_planning', 'progress': 'cmake'}
+[0.014072] (bumperbot_planning) Command: {'cmd': ['/usr/bin/cmake', '/home/behzad/ros2_ws/src/bumperbot_planning', '-DCMAKE_INSTALL_PREFIX=/home/behzad/ros2_ws/install/bumperbot_planning'], 'cwd': '/home/behzad/ros2_ws/build/bumperbot_planning', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'behzad'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/behzad/ros2_ws/install/bumperbot_cpp_examples/lib:/home/behzad/ros2_ws/install/bumperbot_msgs/lib:/home/behzad/ros2_ws/install/bumperbot_firmware/lib:/home/behzad/bumporbot_ws/install/bumperbot_msgs/lib:/home/behzad/bumporbot_ws/install/bumperbot_firmware/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/behzad'), ('OLDPWD', '/home/behzad/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1545'), ('SYSTEMD_EXEC_PID', '1797'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '12207'), ('COLCON_PREFIX_PATH', '/home/behzad/ros2_ws/install:/home/behzad/bumporbot_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'behzad'), ('JOURNAL_STREAM', '8:18598'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'behzad'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/behzad/bumporbot_ws/src/bumperbot_description/models:/home/behzad/bumporbot_ws/src/aws-robomaker-small-house-world/models:/home/behzad/.gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/behzad/ros2_ws/install/bumperbot_localization/bin:/home/behzad/bumporbot_ws/install/bumperbot_localization/bin:/home/behzad/bumporbot_ws/install/bumperbot_firmware/bin:/opt/ros/humble/bin:/home/behzad/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/behzad:@/tmp/.ICE-unix/1769,unix/behzad:/tmp/.ICE-unix/1769'), ('INVOCATION_ID', 'aea8bc6d75644ac380bd461c591e8567'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/behzad/ros2_ws/install/bumperbot_utils:/home/behzad/ros2_ws/install/bumperbot_py_examples:/home/behzad/ros2_ws/install/bumperbot_planning:/home/behzad/ros2_ws/install/bumperbot_cpp_examples:/home/behzad/ros2_ws/install/bumperbot_msgs:/home/behzad/ros2_ws/install/bumperbot_bringup:/home/behzad/ros2_ws/install/bumperbot_mapping:/home/behzad/ros2_ws/install/bumperbot_localization:/home/behzad/ros2_ws/install/bumperbot_firmware:/home/behzad/ros2_ws/install/bumperbot_description:/home/behzad/ros2_ws/install/bumperbot_controller:/home/behzad/bumporbot_ws/install/bumporbot_py_examples:/home/behzad/bumporbot_ws/install/bumporbot_cpp_examples:/home/behzad/bumporbot_ws/install/bumperbot_planning:/home/behzad/bumporbot_ws/install/bumperbot_msgs:/home/behzad/bumporbot_ws/install/bumperbot_bringup:/home/behzad/bumporbot_ws/install/bumperbot_mapping:/home/behzad/bumporbot_ws/install/bumperbot_localization:/home/behzad/bumporbot_ws/install/bumperbot_firmware:/home/behzad/bumporbot_ws/install/bumperbot_description:/home/behzad/bumporbot_ws/install/bumperbot_controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:28a02c58-c053-487c-809a-0cc4a3c50954'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/behzad/ros2_ws/build/bumperbot_planning'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/behzad/ros2_ws/install/bumperbot_utils/local/lib/python3.10/dist-packages:/home/behzad/ros2_ws/install/bumperbot_py_examples/lib/python3.10/site-packages:/home/behzad/ros2_ws/install/bumperbot_planning/local/lib/python3.10/dist-packages:/home/behzad/ros2_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages:/home/behzad/ros2_ws/install/bumperbot_mapping/local/lib/python3.10/dist-packages:/home/behzad/ros2_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages:/home/behzad/ros2_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages:/home/behzad/ros2_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages:/home/behzad/bumporbot_ws/install/bumporbot_py_examples/lib/python3.10/site-packages:/home/behzad/bumporbot_ws/install/bumperbot_planning/local/lib/python3.10/dist-packages:/home/behzad/bumporbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages:/home/behzad/bumporbot_ws/install/bumperbot_mapping/local/lib/python3.10/dist-packages:/home/behzad/bumporbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages:/home/behzad/bumporbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages:/home/behzad/bumporbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/behzad/ros2_ws/install/bumperbot_utils:/home/behzad/ros2_ws/install/bumperbot_planning:/home/behzad/ros2_ws/install/bumperbot_cpp_examples:/home/behzad/ros2_ws/install/bumperbot_msgs:/home/behzad/ros2_ws/install/bumperbot_bringup:/home/behzad/ros2_ws/install/bumperbot_mapping:/home/behzad/ros2_ws/install/bumperbot_localization:/home/behzad/ros2_ws/install/bumperbot_firmware:/home/behzad/ros2_ws/install/bumperbot_description:/home/behzad/ros2_ws/install/bumperbot_controller:/home/behzad/bumporbot_ws/install/bumporbot_cpp_examples:/home/behzad/bumporbot_ws/install/bumperbot_planning:/home/behzad/bumporbot_ws/install/bumperbot_msgs:/home/behzad/bumporbot_ws/install/bumperbot_bringup:/home/behzad/bumporbot_ws/install/bumperbot_mapping:/home/behzad/bumporbot_ws/install/bumperbot_localization:/home/behzad/bumporbot_ws/install/bumperbot_firmware:/home/behzad/bumporbot_ws/install/bumperbot_description:/home/behzad/bumporbot_ws/install/bumperbot_controller:/home/behzad/ros2_ws/install/bumperbot_py_examples:/home/behzad/bumporbot_ws/install/bumporbot_py_examples:/opt/ros/humble')]), 'shell': False}
+[0.093983] (bumperbot_planning) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099587] (-) TimerEvent: {}
+[0.170070] (bumperbot_planning) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.179290] (bumperbot_planning) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199703] (-) TimerEvent: {}
+[0.280377] (bumperbot_planning) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.290619] (bumperbot_planning) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.290862] (bumperbot_planning) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.291306] (bumperbot_planning) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.294749] (bumperbot_planning) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299793] (-) TimerEvent: {}
+[0.400153] (-) TimerEvent: {}
+[0.408535] (bumperbot_planning) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.419204] (bumperbot_planning) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.419703] (bumperbot_planning) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.420186] (bumperbot_planning) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.427711] (bumperbot_planning) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.500241] (-) TimerEvent: {}
+[0.600899] (-) TimerEvent: {}
+[0.666165] (bumperbot_planning) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.701043] (-) TimerEvent: {}
+[0.801434] (-) TimerEvent: {}
+[0.841680] (bumperbot_planning) StdoutLine: {'line': b'-- Found rclpy: 3.3.17 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[0.846872] (bumperbot_planning) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.901567] (-) TimerEvent: {}
+[0.944197] (bumperbot_planning) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.959066] (bumperbot_planning) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.977417] (bumperbot_planning) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.001209] (bumperbot_planning) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.002104] (-) TimerEvent: {}
+[1.035981] (bumperbot_planning) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.102216] (-) TimerEvent: {}
+[1.131096] (bumperbot_planning) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.138894] (bumperbot_planning) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.202309] (-) TimerEvent: {}
+[1.300801] (bumperbot_planning) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.302380] (-) TimerEvent: {}
+[1.345860] (bumperbot_planning) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.402523] (-) TimerEvent: {}
+[1.418376] (bumperbot_planning) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.440562] (bumperbot_planning) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.502619] (-) TimerEvent: {}
+[1.545470] (bumperbot_planning) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.545754] (bumperbot_planning) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.602728] (-) TimerEvent: {}
+[1.649119] (bumperbot_planning) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.650288] (bumperbot_planning) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.702867] (-) TimerEvent: {}
+[1.733467] (bumperbot_planning) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[1.779676] (bumperbot_planning) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[1.802943] (-) TimerEvent: {}
+[1.903218] (-) TimerEvent: {}
+[2.003513] (-) TimerEvent: {}
+[2.103825] (-) TimerEvent: {}
+[2.162723] (bumperbot_planning) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.189514] (bumperbot_planning) StdoutLine: {'line': b'-- Generating done\n'}
+[2.195863] (bumperbot_planning) StdoutLine: {'line': b'-- Build files have been written to: /home/behzad/ros2_ws/build/bumperbot_planning\n'}
+[2.203943] (-) TimerEvent: {}
+[2.210684] (bumperbot_planning) CommandEnded: {'returncode': 0}
+[2.211467] (bumperbot_planning) JobProgress: {'identifier': 'bumperbot_planning', 'progress': 'build'}
+[2.212217] (bumperbot_planning) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/behzad/ros2_ws/build/bumperbot_planning', '--', '-j12', '-l12'], 'cwd': '/home/behzad/ros2_ws/build/bumperbot_planning', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'behzad'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/behzad/ros2_ws/install/bumperbot_cpp_examples/lib:/home/behzad/ros2_ws/install/bumperbot_msgs/lib:/home/behzad/ros2_ws/install/bumperbot_firmware/lib:/home/behzad/bumporbot_ws/install/bumperbot_msgs/lib:/home/behzad/bumporbot_ws/install/bumperbot_firmware/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/behzad'), ('OLDPWD', '/home/behzad/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1545'), ('SYSTEMD_EXEC_PID', '1797'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '12207'), ('COLCON_PREFIX_PATH', '/home/behzad/ros2_ws/install:/home/behzad/bumporbot_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'behzad'), ('JOURNAL_STREAM', '8:18598'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'behzad'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/behzad/bumporbot_ws/src/bumperbot_description/models:/home/behzad/bumporbot_ws/src/aws-robomaker-small-house-world/models:/home/behzad/.gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/behzad/ros2_ws/install/bumperbot_localization/bin:/home/behzad/bumporbot_ws/install/bumperbot_localization/bin:/home/behzad/bumporbot_ws/install/bumperbot_firmware/bin:/opt/ros/humble/bin:/home/behzad/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/behzad:@/tmp/.ICE-unix/1769,unix/behzad:/tmp/.ICE-unix/1769'), ('INVOCATION_ID', 'aea8bc6d75644ac380bd461c591e8567'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/behzad/ros2_ws/install/bumperbot_utils:/home/behzad/ros2_ws/install/bumperbot_py_examples:/home/behzad/ros2_ws/install/bumperbot_planning:/home/behzad/ros2_ws/install/bumperbot_cpp_examples:/home/behzad/ros2_ws/install/bumperbot_msgs:/home/behzad/ros2_ws/install/bumperbot_bringup:/home/behzad/ros2_ws/install/bumperbot_mapping:/home/behzad/ros2_ws/install/bumperbot_localization:/home/behzad/ros2_ws/install/bumperbot_firmware:/home/behzad/ros2_ws/install/bumperbot_description:/home/behzad/ros2_ws/install/bumperbot_controller:/home/behzad/bumporbot_ws/install/bumporbot_py_examples:/home/behzad/bumporbot_ws/install/bumporbot_cpp_examples:/home/behzad/bumporbot_ws/install/bumperbot_planning:/home/behzad/bumporbot_ws/install/bumperbot_msgs:/home/behzad/bumporbot_ws/install/bumperbot_bringup:/home/behzad/bumporbot_ws/install/bumperbot_mapping:/home/behzad/bumporbot_ws/install/bumperbot_localization:/home/behzad/bumporbot_ws/install/bumperbot_firmware:/home/behzad/bumporbot_ws/install/bumperbot_description:/home/behzad/bumporbot_ws/install/bumperbot_controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:28a02c58-c053-487c-809a-0cc4a3c50954'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/behzad/ros2_ws/build/bumperbot_planning'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/behzad/ros2_ws/install/bumperbot_utils/local/lib/python3.10/dist-packages:/home/behzad/ros2_ws/install/bumperbot_py_examples/lib/python3.10/site-packages:/home/behzad/ros2_ws/install/bumperbot_planning/local/lib/python3.10/dist-packages:/home/behzad/ros2_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages:/home/behzad/ros2_ws/install/bumperbot_mapping/local/lib/python3.10/dist-packages:/home/behzad/ros2_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages:/home/behzad/ros2_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages:/home/behzad/ros2_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages:/home/behzad/bumporbot_ws/install/bumporbot_py_examples/lib/python3.10/site-packages:/home/behzad/bumporbot_ws/install/bumperbot_planning/local/lib/python3.10/dist-packages:/home/behzad/bumporbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages:/home/behzad/bumporbot_ws/install/bumperbot_mapping/local/lib/python3.10/dist-packages:/home/behzad/bumporbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages:/home/behzad/bumporbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages:/home/behzad/bumporbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/behzad/ros2_ws/install/bumperbot_utils:/home/behzad/ros2_ws/install/bumperbot_planning:/home/behzad/ros2_ws/install/bumperbot_cpp_examples:/home/behzad/ros2_ws/install/bumperbot_msgs:/home/behzad/ros2_ws/install/bumperbot_bringup:/home/behzad/ros2_ws/install/bumperbot_mapping:/home/behzad/ros2_ws/install/bumperbot_localization:/home/behzad/ros2_ws/install/bumperbot_firmware:/home/behzad/ros2_ws/install/bumperbot_description:/home/behzad/ros2_ws/install/bumperbot_controller:/home/behzad/bumporbot_ws/install/bumporbot_cpp_examples:/home/behzad/bumporbot_ws/install/bumperbot_planning:/home/behzad/bumporbot_ws/install/bumperbot_msgs:/home/behzad/bumporbot_ws/install/bumperbot_bringup:/home/behzad/bumporbot_ws/install/bumperbot_mapping:/home/behzad/bumporbot_ws/install/bumperbot_localization:/home/behzad/bumporbot_ws/install/bumperbot_firmware:/home/behzad/bumporbot_ws/install/bumperbot_description:/home/behzad/bumporbot_ws/install/bumperbot_controller:/home/behzad/ros2_ws/install/bumperbot_py_examples:/home/behzad/bumporbot_ws/install/bumporbot_py_examples:/opt/ros/humble')]), 'shell': False}
+[2.282661] (bumperbot_planning) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target dijkstra_planner\x1b[0m\n'}
+[2.304052] (-) TimerEvent: {}
+[2.309287] (bumperbot_planning) StdoutLine: {'line': b'[ 50%] Built target ament_cmake_python_copy_bumperbot_planning\n'}
+[2.309466] (bumperbot_planning) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/dijkstra_planner.dir/src/dijkstra_planner.cpp.o\x1b[0m\n'}
+[2.404139] (-) TimerEvent: {}
+[2.504433] (-) TimerEvent: {}
+[2.604713] (-) TimerEvent: {}
+[2.660007] (bumperbot_planning) StdoutLine: {'line': b'running egg_info\n'}
+[2.661022] (bumperbot_planning) StdoutLine: {'line': b'writing bumperbot_planning.egg-info/PKG-INFO\n'}
+[2.661341] (bumperbot_planning) StdoutLine: {'line': b'writing dependency_links to bumperbot_planning.egg-info/dependency_links.txt\n'}
+[2.661540] (bumperbot_planning) StdoutLine: {'line': b'writing top-level names to bumperbot_planning.egg-info/top_level.txt\n'}
+[2.663925] (bumperbot_planning) StdoutLine: {'line': b"reading manifest file 'bumperbot_planning.egg-info/SOURCES.txt'\n"}
+[2.664734] (bumperbot_planning) StdoutLine: {'line': b"writing manifest file 'bumperbot_planning.egg-info/SOURCES.txt'\n"}
+[2.701867] (bumperbot_planning) StdoutLine: {'line': b'[ 50%] Built target ament_cmake_python_build_bumperbot_planning_egg\n'}
+[2.704773] (-) TimerEvent: {}
+[2.804997] (-) TimerEvent: {}
+[2.905291] (-) TimerEvent: {}
+[3.005655] (-) TimerEvent: {}
+[3.105885] (-) TimerEvent: {}
+[3.206157] (-) TimerEvent: {}
+[3.306479] (-) TimerEvent: {}
+[3.406772] (-) TimerEvent: {}
+[3.507220] (-) TimerEvent: {}
+[3.607604] (-) TimerEvent: {}
+[3.707900] (-) TimerEvent: {}
+[3.808160] (-) TimerEvent: {}
+[3.908443] (-) TimerEvent: {}
+[4.008805] (-) TimerEvent: {}
+[4.109112] (-) TimerEvent: {}
+[4.209396] (-) TimerEvent: {}
+[4.309692] (-) TimerEvent: {}
+[4.410016] (-) TimerEvent: {}
+[4.510326] (-) TimerEvent: {}
+[4.610655] (-) TimerEvent: {}
+[4.710902] (-) TimerEvent: {}
+[4.811258] (-) TimerEvent: {}
+[4.911675] (-) TimerEvent: {}
+[5.012131] (-) TimerEvent: {}
+[5.112706] (-) TimerEvent: {}
+[5.213215] (-) TimerEvent: {}
+[5.313919] (-) TimerEvent: {}
+[5.414568] (-) TimerEvent: {}
+[5.515156] (-) TimerEvent: {}
+[5.615658] (-) TimerEvent: {}
+[5.716092] (-) TimerEvent: {}
+[5.816607] (-) TimerEvent: {}
+[5.917132] (-) TimerEvent: {}
+[6.017462] (-) TimerEvent: {}
+[6.117936] (-) TimerEvent: {}
+[6.218635] (-) TimerEvent: {}
+[6.319144] (-) TimerEvent: {}
+[6.419539] (-) TimerEvent: {}
+[6.519907] (-) TimerEvent: {}
+[6.620343] (-) TimerEvent: {}
+[6.720747] (-) TimerEvent: {}
+[6.821256] (-) TimerEvent: {}
+[6.921736] (-) TimerEvent: {}
+[7.022215] (-) TimerEvent: {}
+[7.122624] (-) TimerEvent: {}
+[7.223053] (-) TimerEvent: {}
+[7.323433] (-) TimerEvent: {}
+[7.423819] (-) TimerEvent: {}
+[7.524200] (-) TimerEvent: {}
+[7.624510] (-) TimerEvent: {}
+[7.724920] (-) TimerEvent: {}
+[7.825275] (-) TimerEvent: {}
+[7.925667] (-) TimerEvent: {}
+[8.026049] (-) TimerEvent: {}
+[8.126450] (-) TimerEvent: {}
+[8.226921] (-) TimerEvent: {}
+[8.327314] (-) TimerEvent: {}
+[8.427688] (-) TimerEvent: {}
+[8.528158] (-) TimerEvent: {}
+[8.628571] (-) TimerEvent: {}
+[8.728966] (-) TimerEvent: {}
+[8.829381] (-) TimerEvent: {}
+[8.929776] (-) TimerEvent: {}
+[9.030218] (-) TimerEvent: {}
+[9.130655] (-) TimerEvent: {}
+[9.231128] (-) TimerEvent: {}
+[9.331574] (-) TimerEvent: {}
+[9.431995] (-) TimerEvent: {}
+[9.532429] (-) TimerEvent: {}
+[9.632887] (-) TimerEvent: {}
+[9.733294] (-) TimerEvent: {}
+[9.833656] (-) TimerEvent: {}
+[9.934087] (-) TimerEvent: {}
+[10.034492] (-) TimerEvent: {}
+[10.134941] (-) TimerEvent: {}
+[10.235381] (-) TimerEvent: {}
+[10.335801] (-) TimerEvent: {}
+[10.436209] (-) TimerEvent: {}
+[10.536608] (-) TimerEvent: {}
+[10.636973] (-) TimerEvent: {}
+[10.737387] (-) TimerEvent: {}
+[10.837830] (-) TimerEvent: {}
+[10.938269] (-) TimerEvent: {}
+[11.038639] (-) TimerEvent: {}
+[11.139311] (-) TimerEvent: {}
+[11.239799] (-) TimerEvent: {}
+[11.340232] (-) TimerEvent: {}
+[11.440573] (-) TimerEvent: {}
+[11.541010] (-) TimerEvent: {}
+[11.641378] (-) TimerEvent: {}
+[11.741797] (-) TimerEvent: {}
+[11.842173] (-) TimerEvent: {}
+[11.942593] (-) TimerEvent: {}
+[12.043161] (-) TimerEvent: {}
+[12.143663] (-) TimerEvent: {}
+[12.244115] (-) TimerEvent: {}
+[12.344504] (-) TimerEvent: {}
+[12.444911] (-) TimerEvent: {}
+[12.545429] (-) TimerEvent: {}
+[12.645984] (-) TimerEvent: {}
+[12.746372] (-) TimerEvent: {}
+[12.846781] (-) TimerEvent: {}
+[12.947300] (-) TimerEvent: {}
+[13.047891] (-) TimerEvent: {}
+[13.148392] (-) TimerEvent: {}
+[13.248962] (-) TimerEvent: {}
+[13.349620] (-) TimerEvent: {}
+[13.450103] (-) TimerEvent: {}
+[13.550682] (-) TimerEvent: {}
+[13.651148] (-) TimerEvent: {}
+[13.751728] (-) TimerEvent: {}
+[13.852353] (-) TimerEvent: {}
+[13.952884] (-) TimerEvent: {}
+[14.053472] (-) TimerEvent: {}
+[14.154092] (-) TimerEvent: {}
+[14.254667] (-) TimerEvent: {}
+[14.355355] (-) TimerEvent: {}
+[14.455912] (-) TimerEvent: {}
+[14.556289] (-) TimerEvent: {}
+[14.656895] (-) TimerEvent: {}
+[14.757274] (-) TimerEvent: {}
+[14.857742] (-) TimerEvent: {}
+[14.958190] (-) TimerEvent: {}
+[14.963548] (bumperbot_planning) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable dijkstra_planner\x1b[0m\n'}
+[15.058293] (-) TimerEvent: {}
+[15.158618] (-) TimerEvent: {}
+[15.258955] (-) TimerEvent: {}
+[15.359321] (-) TimerEvent: {}
+[15.459617] (-) TimerEvent: {}
+[15.559916] (-) TimerEvent: {}
+[15.639674] (bumperbot_planning) StdoutLine: {'line': b'[100%] Built target dijkstra_planner\n'}
+[15.656358] (bumperbot_planning) CommandEnded: {'returncode': 0}
+[15.657449] (bumperbot_planning) JobProgress: {'identifier': 'bumperbot_planning', 'progress': 'install'}
+[15.659977] (-) TimerEvent: {}
+[15.677402] (bumperbot_planning) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/behzad/ros2_ws/build/bumperbot_planning'], 'cwd': '/home/behzad/ros2_ws/build/bumperbot_planning', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'behzad'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/behzad/ros2_ws/install/bumperbot_cpp_examples/lib:/home/behzad/ros2_ws/install/bumperbot_msgs/lib:/home/behzad/ros2_ws/install/bumperbot_firmware/lib:/home/behzad/bumporbot_ws/install/bumperbot_msgs/lib:/home/behzad/bumporbot_ws/install/bumperbot_firmware/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/behzad'), ('OLDPWD', '/home/behzad/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1545'), ('SYSTEMD_EXEC_PID', '1797'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '12207'), ('COLCON_PREFIX_PATH', '/home/behzad/ros2_ws/install:/home/behzad/bumporbot_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'behzad'), ('JOURNAL_STREAM', '8:18598'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'behzad'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/behzad/bumporbot_ws/src/bumperbot_description/models:/home/behzad/bumporbot_ws/src/aws-robomaker-small-house-world/models:/home/behzad/.gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/behzad/ros2_ws/install/bumperbot_localization/bin:/home/behzad/bumporbot_ws/install/bumperbot_localization/bin:/home/behzad/bumporbot_ws/install/bumperbot_firmware/bin:/opt/ros/humble/bin:/home/behzad/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/behzad:@/tmp/.ICE-unix/1769,unix/behzad:/tmp/.ICE-unix/1769'), ('INVOCATION_ID', 'aea8bc6d75644ac380bd461c591e8567'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/behzad/ros2_ws/install/bumperbot_utils:/home/behzad/ros2_ws/install/bumperbot_py_examples:/home/behzad/ros2_ws/install/bumperbot_planning:/home/behzad/ros2_ws/install/bumperbot_cpp_examples:/home/behzad/ros2_ws/install/bumperbot_msgs:/home/behzad/ros2_ws/install/bumperbot_bringup:/home/behzad/ros2_ws/install/bumperbot_mapping:/home/behzad/ros2_ws/install/bumperbot_localization:/home/behzad/ros2_ws/install/bumperbot_firmware:/home/behzad/ros2_ws/install/bumperbot_description:/home/behzad/ros2_ws/install/bumperbot_controller:/home/behzad/bumporbot_ws/install/bumporbot_py_examples:/home/behzad/bumporbot_ws/install/bumporbot_cpp_examples:/home/behzad/bumporbot_ws/install/bumperbot_planning:/home/behzad/bumporbot_ws/install/bumperbot_msgs:/home/behzad/bumporbot_ws/install/bumperbot_bringup:/home/behzad/bumporbot_ws/install/bumperbot_mapping:/home/behzad/bumporbot_ws/install/bumperbot_localization:/home/behzad/bumporbot_ws/install/bumperbot_firmware:/home/behzad/bumporbot_ws/install/bumperbot_description:/home/behzad/bumporbot_ws/install/bumperbot_controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:28a02c58-c053-487c-809a-0cc4a3c50954'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/behzad/ros2_ws/build/bumperbot_planning'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/behzad/ros2_ws/install/bumperbot_utils/local/lib/python3.10/dist-packages:/home/behzad/ros2_ws/install/bumperbot_py_examples/lib/python3.10/site-packages:/home/behzad/ros2_ws/install/bumperbot_planning/local/lib/python3.10/dist-packages:/home/behzad/ros2_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages:/home/behzad/ros2_ws/install/bumperbot_mapping/local/lib/python3.10/dist-packages:/home/behzad/ros2_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages:/home/behzad/ros2_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages:/home/behzad/ros2_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages:/home/behzad/bumporbot_ws/install/bumporbot_py_examples/lib/python3.10/site-packages:/home/behzad/bumporbot_ws/install/bumperbot_planning/local/lib/python3.10/dist-packages:/home/behzad/bumporbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages:/home/behzad/bumporbot_ws/install/bumperbot_mapping/local/lib/python3.10/dist-packages:/home/behzad/bumporbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages:/home/behzad/bumporbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages:/home/behzad/bumporbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/behzad/ros2_ws/install/bumperbot_utils:/home/behzad/ros2_ws/install/bumperbot_planning:/home/behzad/ros2_ws/install/bumperbot_cpp_examples:/home/behzad/ros2_ws/install/bumperbot_msgs:/home/behzad/ros2_ws/install/bumperbot_bringup:/home/behzad/ros2_ws/install/bumperbot_mapping:/home/behzad/ros2_ws/install/bumperbot_localization:/home/behzad/ros2_ws/install/bumperbot_firmware:/home/behzad/ros2_ws/install/bumperbot_description:/home/behzad/ros2_ws/install/bumperbot_controller:/home/behzad/bumporbot_ws/install/bumporbot_cpp_examples:/home/behzad/bumporbot_ws/install/bumperbot_planning:/home/behzad/bumporbot_ws/install/bumperbot_msgs:/home/behzad/bumporbot_ws/install/bumperbot_bringup:/home/behzad/bumporbot_ws/install/bumperbot_mapping:/home/behzad/bumporbot_ws/install/bumperbot_localization:/home/behzad/bumporbot_ws/install/bumperbot_firmware:/home/behzad/bumporbot_ws/install/bumperbot_description:/home/behzad/bumporbot_ws/install/bumperbot_controller:/home/behzad/ros2_ws/install/bumperbot_py_examples:/home/behzad/bumporbot_ws/install/bumporbot_py_examples:/opt/ros/humble')]), 'shell': False}
+[15.696223] (bumperbot_planning) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[15.696483] (bumperbot_planning) StdoutLine: {'line': b'-- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_planning/share/bumperbot_planning/environment/pythonpath.sh\n'}
+[15.696613] (bumperbot_planning) StdoutLine: {'line': b'-- Installing: /home/behzad/ros2_ws/install/bumperbot_planning/share/bumperbot_planning/environment/pythonpath.dsv\n'}
+[15.696716] (bumperbot_planning) StdoutLine: {'line': b'-- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_planning/local/lib/python3.10/dist-packages/bumperbot_planning-0.0.0-py3.10.egg-info\n'}
+[15.696873] (bumperbot_planning) StdoutLine: {'line': b'-- Installing: /home/behzad/ros2_ws/install/bumperbot_planning/local/lib/python3.10/dist-packages/bumperbot_planning-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[15.697028] (bumperbot_planning) StdoutLine: {'line': b'-- Installing: /home/behzad/ros2_ws/install/bumperbot_planning/local/lib/python3.10/dist-packages/bumperbot_planning-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[15.697283] (bumperbot_planning) StdoutLine: {'line': b'-- Installing: /home/behzad/ros2_ws/install/bumperbot_planning/local/lib/python3.10/dist-packages/bumperbot_planning-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[15.697494] (bumperbot_planning) StdoutLine: {'line': b'-- Installing: /home/behzad/ros2_ws/install/bumperbot_planning/local/lib/python3.10/dist-packages/bumperbot_planning-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[15.697761] (bumperbot_planning) StdoutLine: {'line': b'-- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_planning/local/lib/python3.10/dist-packages/bumperbot_planning\n'}
+[15.697919] (bumperbot_planning) StdoutLine: {'line': b'-- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_planning/local/lib/python3.10/dist-packages/bumperbot_planning/__init__.py\n'}
+[15.698062] (bumperbot_planning) StdoutLine: {'line': b'-- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_planning/local/lib/python3.10/dist-packages/bumperbot_planning/dijkstra_planner.py\n'}
+[15.735398] (bumperbot_planning) StdoutLine: {'line': b"Listing '/home/behzad/ros2_ws/install/bumperbot_planning/local/lib/python3.10/dist-packages/bumperbot_planning'...\n"}
+[15.739171] (bumperbot_planning) StdoutLine: {'line': b'-- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_planning/lib/bumperbot_planning/dijkstra_planner.py\n'}
+[15.739403] (bumperbot_planning) StdoutLine: {'line': b'-- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_planning/include\n'}
+[15.739554] (bumperbot_planning) StdoutLine: {'line': b'-- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_planning/include/bumperbot_planning\n'}
+[15.739696] (bumperbot_planning) StdoutLine: {'line': b'-- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_planning/include/bumperbot_planning/dijkstra_planner.hpp\n'}
+[15.739900] (bumperbot_planning) StdoutLine: {'line': b'-- Installing: /home/behzad/ros2_ws/install/bumperbot_planning/lib/bumperbot_planning/dijkstra_planner\n'}
+[15.748660] (bumperbot_planning) StdoutLine: {'line': b'-- Set runtime path of "/home/behzad/ros2_ws/install/bumperbot_planning/lib/bumperbot_planning/dijkstra_planner" to ""\n'}
+[15.749042] (bumperbot_planning) StdoutLine: {'line': b'-- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_planning/share/ament_index/resource_index/package_run_dependencies/bumperbot_planning\n'}
+[15.749362] (bumperbot_planning) StdoutLine: {'line': b'-- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_planning/share/ament_index/resource_index/parent_prefix_path/bumperbot_planning\n'}
+[15.749610] (bumperbot_planning) StdoutLine: {'line': b'-- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_planning/share/bumperbot_planning/environment/ament_prefix_path.sh\n'}
+[15.749852] (bumperbot_planning) StdoutLine: {'line': b'-- Installing: /home/behzad/ros2_ws/install/bumperbot_planning/share/bumperbot_planning/environment/ament_prefix_path.dsv\n'}
+[15.750169] (bumperbot_planning) StdoutLine: {'line': b'-- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_planning/share/bumperbot_planning/environment/path.sh\n'}
+[15.750447] (bumperbot_planning) StdoutLine: {'line': b'-- Installing: /home/behzad/ros2_ws/install/bumperbot_planning/share/bumperbot_planning/environment/path.dsv\n'}
+[15.750638] (bumperbot_planning) StdoutLine: {'line': b'-- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_planning/share/bumperbot_planning/local_setup.bash\n'}
+[15.750821] (bumperbot_planning) StdoutLine: {'line': b'-- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_planning/share/bumperbot_planning/local_setup.sh\n'}
+[15.751051] (bumperbot_planning) StdoutLine: {'line': b'-- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_planning/share/bumperbot_planning/local_setup.zsh\n'}
+[15.751237] (bumperbot_planning) StdoutLine: {'line': b'-- Installing: /home/behzad/ros2_ws/install/bumperbot_planning/share/bumperbot_planning/local_setup.dsv\n'}
+[15.751412] (bumperbot_planning) StdoutLine: {'line': b'-- Installing: /home/behzad/ros2_ws/install/bumperbot_planning/share/bumperbot_planning/package.dsv\n'}
+[15.751584] (bumperbot_planning) StdoutLine: {'line': b'-- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_planning/share/ament_index/resource_index/packages/bumperbot_planning\n'}
+[15.751755] (bumperbot_planning) StdoutLine: {'line': b'-- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_planning/share/bumperbot_planning/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[15.751965] (bumperbot_planning) StdoutLine: {'line': b'-- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_planning/share/bumperbot_planning/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[15.752152] (bumperbot_planning) StdoutLine: {'line': b'-- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_planning/share/bumperbot_planning/cmake/bumperbot_planningConfig.cmake\n'}
+[15.752520] (bumperbot_planning) StdoutLine: {'line': b'-- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_planning/share/bumperbot_planning/cmake/bumperbot_planningConfig-version.cmake\n'}
+[15.752831] (bumperbot_planning) StdoutLine: {'line': b'-- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_planning/share/bumperbot_planning/package.xml\n'}
+[15.754023] (bumperbot_planning) CommandEnded: {'returncode': 0}
+[15.760423] (-) TimerEvent: {}
+[15.797662] (bumperbot_planning) JobEnded: {'identifier': 'bumperbot_planning', 'rc': 0}
+[15.798937] (-) EventReactorShutdown: {}

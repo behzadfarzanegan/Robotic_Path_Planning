@@ -1,0 +1,51 @@
+[0.036s] Invoking command in '/home/behzad/ros2_ws/build/bumperbot_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/behzad/ros2_ws/install/bumperbot_py_examples:/home/behzad/bumporbot_ws/install/bumporbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/behzad/ros2_ws/build/bumperbot_planning -- -j12 -l12
+[0.123s] [35m[1mConsolidate compiler generated dependencies of target a_star_planner[0m
+[0.214s] [ 50%] Built target a_star_planner
+[0.235s] [ 50%] Built target ament_cmake_python_copy_bumperbot_planning
+[0.236s] [100%] Built target dijkstra_planner
+[0.664s] running egg_info
+[0.664s] writing bumperbot_planning.egg-info/PKG-INFO
+[0.664s] writing dependency_links to bumperbot_planning.egg-info/dependency_links.txt
+[0.665s] writing top-level names to bumperbot_planning.egg-info/top_level.txt
+[0.668s] reading manifest file 'bumperbot_planning.egg-info/SOURCES.txt'
+[0.670s] writing manifest file 'bumperbot_planning.egg-info/SOURCES.txt'
+[0.718s] [100%] Built target ament_cmake_python_build_bumperbot_planning_egg
+[0.775s] Invoked command in '/home/behzad/ros2_ws/build/bumperbot_planning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/behzad/ros2_ws/install/bumperbot_py_examples:/home/behzad/bumporbot_ws/install/bumporbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/behzad/ros2_ws/build/bumperbot_planning -- -j12 -l12
+[0.776s] Invoking command in '/home/behzad/ros2_ws/build/bumperbot_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/behzad/ros2_ws/install/bumperbot_py_examples:/home/behzad/bumporbot_ws/install/bumporbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/behzad/ros2_ws/build/bumperbot_planning
+[0.784s] -- Install configuration: ""
+[0.785s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_planning/share/bumperbot_planning/environment/pythonpath.sh
+[0.785s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_planning/share/bumperbot_planning/environment/pythonpath.dsv
+[0.785s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_planning/local/lib/python3.10/dist-packages/bumperbot_planning-0.0.0-py3.10.egg-info
+[0.785s] -- Installing: /home/behzad/ros2_ws/install/bumperbot_planning/local/lib/python3.10/dist-packages/bumperbot_planning-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.786s] -- Installing: /home/behzad/ros2_ws/install/bumperbot_planning/local/lib/python3.10/dist-packages/bumperbot_planning-0.0.0-py3.10.egg-info/PKG-INFO
+[0.786s] -- Installing: /home/behzad/ros2_ws/install/bumperbot_planning/local/lib/python3.10/dist-packages/bumperbot_planning-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.786s] -- Installing: /home/behzad/ros2_ws/install/bumperbot_planning/local/lib/python3.10/dist-packages/bumperbot_planning-0.0.0-py3.10.egg-info/top_level.txt
+[0.786s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_planning/local/lib/python3.10/dist-packages/bumperbot_planning
+[0.786s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_planning/local/lib/python3.10/dist-packages/bumperbot_planning/__init__.py
+[0.786s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_planning/local/lib/python3.10/dist-packages/bumperbot_planning/dijkstra_planner.py
+[0.846s] Listing '/home/behzad/ros2_ws/install/bumperbot_planning/local/lib/python3.10/dist-packages/bumperbot_planning'...
+[0.852s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_planning/lib/bumperbot_planning/dijkstra_planner.py
+[0.852s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_planning/include
+[0.852s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_planning/include/bumperbot_planning
+[0.852s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_planning/include/bumperbot_planning/dijkstra_planner.hpp
+[0.852s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_planning/include/bumperbot_planning/a_star_planner.hpp
+[0.853s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_planning/lib/bumperbot_planning/dijkstra_planner
+[0.853s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_planning/lib/bumperbot_planning/a_star_planner
+[0.853s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_planning/share/ament_index/resource_index/package_run_dependencies/bumperbot_planning
+[0.853s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_planning/share/ament_index/resource_index/parent_prefix_path/bumperbot_planning
+[0.853s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_planning/share/bumperbot_planning/environment/ament_prefix_path.sh
+[0.853s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_planning/share/bumperbot_planning/environment/ament_prefix_path.dsv
+[0.853s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_planning/share/bumperbot_planning/environment/path.sh
+[0.853s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_planning/share/bumperbot_planning/environment/path.dsv
+[0.854s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_planning/share/bumperbot_planning/local_setup.bash
+[0.854s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_planning/share/bumperbot_planning/local_setup.sh
+[0.854s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_planning/share/bumperbot_planning/local_setup.zsh
+[0.854s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_planning/share/bumperbot_planning/local_setup.dsv
+[0.854s] -- Installing: /home/behzad/ros2_ws/install/bumperbot_planning/share/bumperbot_planning/package.dsv
+[0.854s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_planning/share/ament_index/resource_index/packages/bumperbot_planning
+[0.854s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_planning/share/bumperbot_planning/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.854s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_planning/share/bumperbot_planning/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.854s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_planning/share/bumperbot_planning/cmake/bumperbot_planningConfig.cmake
+[0.854s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_planning/share/bumperbot_planning/cmake/bumperbot_planningConfig-version.cmake
+[0.854s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_planning/share/bumperbot_planning/package.xml
+[1.208s] Invoked command in '/home/behzad/ros2_ws/build/bumperbot_planning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/behzad/ros2_ws/install/bumperbot_py_examples:/home/behzad/bumporbot_ws/install/bumporbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/behzad/ros2_ws/build/bumperbot_planning

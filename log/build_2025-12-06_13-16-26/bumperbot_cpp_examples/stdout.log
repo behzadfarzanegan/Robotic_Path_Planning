@@ -1,0 +1,28 @@
+[35m[1mConsolidate compiler generated dependencies of target simple_qos_subscriber[0m
+[35m[1mConsolidate compiler generated dependencies of target simple_turtlesim_kinematics[0m
+[35m[1mConsolidate compiler generated dependencies of target simple_tf_kinematics[0m
+[35m[1mConsolidate compiler generated dependencies of target simple_service_server[0m
+[35m[1mConsolidate compiler generated dependencies of target simple_parameter[0m
+[35m[1mConsolidate compiler generated dependencies of target simple_qos_publisher[0m
+[35m[1mConsolidate compiler generated dependencies of target simple_subscriber[0m
+[35m[1mConsolidate compiler generated dependencies of target simple_publisher[0m
+[35m[1mConsolidate compiler generated dependencies of target simple_action_server[0m
+[35m[1mConsolidate compiler generated dependencies of target simple_service_client[0m
+[35m[1mConsolidate compiler generated dependencies of target simple_lifecycle_node[0m
+[35m[1mConsolidate compiler generated dependencies of target simple_action_server_node[0m
+[  7%] Built target simple_service_server
+[ 14%] Built target simple_subscriber
+[ 25%] Built target simple_parameter
+[ 28%] Built target simple_turtlesim_kinematics
+[ 42%] Built target simple_tf_kinematics
+[ 42%] Built target simple_publisher
+[ 50%] Built target simple_qos_publisher
+[ 57%] Built target simple_qos_subscriber
+[ 64%] Built target simple_service_client
+[ 71%] Built target simple_lifecycle_node
+[ 78%] Built target simple_action_server
+[ 85%] Built target simple_action_server_node
+[35m[1mConsolidate compiler generated dependencies of target simple_action_client[0m
+[35m[1mConsolidate compiler generated dependencies of target simple_action_client_node[0m
+[ 92%] Built target simple_action_client_node
+[100%] Built target simple_action_client

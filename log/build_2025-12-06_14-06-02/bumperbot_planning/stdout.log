@@ -1,0 +1,83 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rclpy: 3.3.17 (/opt/ros/humble/share/rclpy/cmake)
+-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+-- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/behzad/ros2_ws/build/bumperbot_planning
+[35m[1mConsolidate compiler generated dependencies of target dijkstra_planner[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/dijkstra_planner.dir/src/dijkstra_planner.cpp.o[0m
+[ 50%] Built target ament_cmake_python_copy_bumperbot_planning
+running egg_info
+writing bumperbot_planning.egg-info/PKG-INFO
+writing dependency_links to bumperbot_planning.egg-info/dependency_links.txt
+writing top-level names to bumperbot_planning.egg-info/top_level.txt
+reading manifest file 'bumperbot_planning.egg-info/SOURCES.txt'
+writing manifest file 'bumperbot_planning.egg-info/SOURCES.txt'
+[ 50%] Built target ament_cmake_python_build_bumperbot_planning_egg
+[100%] [32m[1mLinking CXX executable dijkstra_planner[0m
+[100%] Built target dijkstra_planner
+-- Install configuration: ""
+-- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_planning/share/bumperbot_planning/environment/pythonpath.sh
+-- Installing: /home/behzad/ros2_ws/install/bumperbot_planning/share/bumperbot_planning/environment/pythonpath.dsv
+-- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_planning/local/lib/python3.10/dist-packages/bumperbot_planning-0.0.0-py3.10.egg-info
+-- Installing: /home/behzad/ros2_ws/install/bumperbot_planning/local/lib/python3.10/dist-packages/bumperbot_planning-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/behzad/ros2_ws/install/bumperbot_planning/local/lib/python3.10/dist-packages/bumperbot_planning-0.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/behzad/ros2_ws/install/bumperbot_planning/local/lib/python3.10/dist-packages/bumperbot_planning-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/behzad/ros2_ws/install/bumperbot_planning/local/lib/python3.10/dist-packages/bumperbot_planning-0.0.0-py3.10.egg-info/top_level.txt
+-- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_planning/local/lib/python3.10/dist-packages/bumperbot_planning
+-- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_planning/local/lib/python3.10/dist-packages/bumperbot_planning/__init__.py
+-- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_planning/local/lib/python3.10/dist-packages/bumperbot_planning/dijkstra_planner.py
+Listing '/home/behzad/ros2_ws/install/bumperbot_planning/local/lib/python3.10/dist-packages/bumperbot_planning'...
+-- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_planning/lib/bumperbot_planning/dijkstra_planner.py
+-- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_planning/include
+-- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_planning/include/bumperbot_planning
+-- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_planning/include/bumperbot_planning/dijkstra_planner.hpp
+-- Installing: /home/behzad/ros2_ws/install/bumperbot_planning/lib/bumperbot_planning/dijkstra_planner
+-- Set runtime path of "/home/behzad/ros2_ws/install/bumperbot_planning/lib/bumperbot_planning/dijkstra_planner" to ""
+-- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_planning/share/ament_index/resource_index/package_run_dependencies/bumperbot_planning
+-- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_planning/share/ament_index/resource_index/parent_prefix_path/bumperbot_planning
+-- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_planning/share/bumperbot_planning/environment/ament_prefix_path.sh
+-- Installing: /home/behzad/ros2_ws/install/bumperbot_planning/share/bumperbot_planning/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_planning/share/bumperbot_planning/environment/path.sh
+-- Installing: /home/behzad/ros2_ws/install/bumperbot_planning/share/bumperbot_planning/environment/path.dsv
+-- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_planning/share/bumperbot_planning/local_setup.bash
+-- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_planning/share/bumperbot_planning/local_setup.sh
+-- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_planning/share/bumperbot_planning/local_setup.zsh
+-- Installing: /home/behzad/ros2_ws/install/bumperbot_planning/share/bumperbot_planning/local_setup.dsv
+-- Installing: /home/behzad/ros2_ws/install/bumperbot_planning/share/bumperbot_planning/package.dsv
+-- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_planning/share/ament_index/resource_index/packages/bumperbot_planning
+-- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_planning/share/bumperbot_planning/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_planning/share/bumperbot_planning/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_planning/share/bumperbot_planning/cmake/bumperbot_planningConfig.cmake
+-- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_planning/share/bumperbot_planning/cmake/bumperbot_planningConfig-version.cmake
+-- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_planning/share/bumperbot_planning/package.xml

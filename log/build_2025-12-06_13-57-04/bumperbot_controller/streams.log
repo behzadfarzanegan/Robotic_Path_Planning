@@ -1,0 +1,64 @@
+[0.051s] Invoking command in '/home/behzad/ros2_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/behzad/ros2_ws/install/bumperbot_py_examples:/home/behzad/bumporbot_ws/install/bumporbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/behzad/ros2_ws/build/bumperbot_controller -- -j12 -l12
+[0.162s] [ 33%] Built target noisy_controller
+[0.163s] [ 66%] Built target simple_controller
+[0.178s] [ 66%] Built target ament_cmake_python_copy_bumperbot_controller
+[0.200s] [100%] Built target twist_relay
+[0.676s] running egg_info
+[0.677s] writing bumperbot_controller.egg-info/PKG-INFO
+[0.677s] writing dependency_links to bumperbot_controller.egg-info/dependency_links.txt
+[0.678s] writing top-level names to bumperbot_controller.egg-info/top_level.txt
+[0.681s] reading manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[0.682s] writing manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[0.739s] [100%] Built target ament_cmake_python_build_bumperbot_controller_egg
+[0.795s] Invoked command in '/home/behzad/ros2_ws/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/behzad/ros2_ws/install/bumperbot_py_examples:/home/behzad/bumporbot_ws/install/bumporbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/behzad/ros2_ws/build/bumperbot_controller -- -j12 -l12
+[0.796s] Invoking command in '/home/behzad/ros2_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/behzad/ros2_ws/install/bumperbot_py_examples:/home/behzad/bumporbot_ws/install/bumporbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/behzad/ros2_ws/build/bumperbot_controller
+[0.807s] -- Install configuration: ""
+[0.811s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_controller/share/bumperbot_controller/environment/pythonpath.sh
+[0.811s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_controller/share/bumperbot_controller/environment/pythonpath.dsv
+[0.811s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info
+[0.812s] -- Installing: /home/behzad/ros2_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.813s] -- Installing: /home/behzad/ros2_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/PKG-INFO
+[0.813s] -- Installing: /home/behzad/ros2_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.813s] -- Installing: /home/behzad/ros2_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/top_level.txt
+[0.813s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller
+[0.813s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/__init__.py
+[0.813s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/noisy_controller.py
+[0.813s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/twist_relay.py
+[0.814s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/simple_controller.py
+[0.854s] Listing '/home/behzad/ros2_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller'...
+[0.860s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_controller/include/include
+[0.860s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_controller/include/include/bumperbot_controller
+[0.860s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_controller/include/include/bumperbot_controller/simple_controller.hpp
+[0.861s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_controller/include/include/bumperbot_controller/noisy_controller.hpp
+[0.861s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_controller/lib/bumperbot_controller/simple_controller
+[0.861s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_controller/lib/bumperbot_controller/noisy_controller
+[0.861s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_controller/lib/bumperbot_controller/twist_relay
+[0.862s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_controller/share/bumperbot_controller/launch
+[0.862s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_controller/share/bumperbot_controller/launch/joystick_teleop.launch.py
+[0.862s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_controller/share/bumperbot_controller/launch/controller.launch.py
+[0.862s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_controller/share/bumperbot_controller/config
+[0.862s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_controller/share/bumperbot_controller/config/joy_config.yaml
+[0.862s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_controller/share/bumperbot_controller/config/twist_mux_locks.yaml
+[0.862s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_controller/share/bumperbot_controller/config/bumperbot_controllers.yaml
+[0.862s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_controller/share/bumperbot_controller/config/twist_mux_topics.yaml
+[0.863s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_controller/share/bumperbot_controller/config/twist_mux_joy.yaml
+[0.863s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_controller/share/bumperbot_controller/config/joy_teleop.yaml
+[0.863s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_controller/lib/bumperbot_controller/simple_controller.py
+[0.863s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_controller/lib/bumperbot_controller/noisy_controller.py
+[0.863s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_controller/lib/bumperbot_controller/twist_relay.py
+[0.863s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_controller/share/ament_index/resource_index/package_run_dependencies/bumperbot_controller
+[0.863s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_controller/share/ament_index/resource_index/parent_prefix_path/bumperbot_controller
+[0.863s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.sh
+[0.863s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.dsv
+[0.863s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_controller/share/bumperbot_controller/environment/path.sh
+[0.864s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_controller/share/bumperbot_controller/environment/path.dsv
+[0.864s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.bash
+[0.864s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.sh
+[0.864s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.zsh
+[0.864s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.dsv
+[0.864s] -- Installing: /home/behzad/ros2_ws/install/bumperbot_controller/share/bumperbot_controller/package.dsv
+[0.864s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_controller/share/ament_index/resource_index/packages/bumperbot_controller
+[0.864s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig.cmake
+[0.864s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig-version.cmake
+[0.864s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_controller/share/bumperbot_controller/package.xml
+[1.189s] Invoked command in '/home/behzad/ros2_ws/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/behzad/ros2_ws/install/bumperbot_py_examples:/home/behzad/bumporbot_ws/install/bumporbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/behzad/ros2_ws/build/bumperbot_controller

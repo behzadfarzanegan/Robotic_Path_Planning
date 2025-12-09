@@ -1,0 +1,58 @@
+[0.050s] Invoking command in '/home/behzad/ros2_ws/build/bumperbot_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/behzad/ros2_ws/install/bumperbot_py_examples:/home/behzad/bumporbot_ws/install/bumporbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/behzad/ros2_ws/build/bumperbot_mapping -- -j12 -l12
+[0.273s] [100%] Built target mapping_with_known_poses
+[0.347s] [100%] Built target ament_cmake_python_copy_bumperbot_mapping
+[0.795s] running egg_info
+[0.798s] writing bumperbot_mapping.egg-info/PKG-INFO
+[0.799s] writing dependency_links to bumperbot_mapping.egg-info/dependency_links.txt
+[0.799s] writing top-level names to bumperbot_mapping.egg-info/top_level.txt
+[0.802s] reading manifest file 'bumperbot_mapping.egg-info/SOURCES.txt'
+[0.803s] writing manifest file 'bumperbot_mapping.egg-info/SOURCES.txt'
+[0.901s] [100%] Built target ament_cmake_python_build_bumperbot_mapping_egg
+[0.936s] Invoked command in '/home/behzad/ros2_ws/build/bumperbot_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/behzad/ros2_ws/install/bumperbot_py_examples:/home/behzad/bumporbot_ws/install/bumporbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/behzad/ros2_ws/build/bumperbot_mapping -- -j12 -l12
+[0.943s] Invoking command in '/home/behzad/ros2_ws/build/bumperbot_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/behzad/ros2_ws/install/bumperbot_py_examples:/home/behzad/bumporbot_ws/install/bumporbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/behzad/ros2_ws/build/bumperbot_mapping
+[0.948s] -- Install configuration: ""
+[0.948s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/pythonpath.sh
+[0.948s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/pythonpath.dsv
+[0.949s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_mapping/local/lib/python3.10/dist-packages/bumperbot_mapping-0.0.0-py3.10.egg-info
+[0.950s] -- Installing: /home/behzad/ros2_ws/install/bumperbot_mapping/local/lib/python3.10/dist-packages/bumperbot_mapping-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.950s] -- Installing: /home/behzad/ros2_ws/install/bumperbot_mapping/local/lib/python3.10/dist-packages/bumperbot_mapping-0.0.0-py3.10.egg-info/PKG-INFO
+[0.951s] -- Installing: /home/behzad/ros2_ws/install/bumperbot_mapping/local/lib/python3.10/dist-packages/bumperbot_mapping-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.951s] -- Installing: /home/behzad/ros2_ws/install/bumperbot_mapping/local/lib/python3.10/dist-packages/bumperbot_mapping-0.0.0-py3.10.egg-info/top_level.txt
+[0.951s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_mapping/local/lib/python3.10/dist-packages/bumperbot_mapping
+[0.951s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_mapping/local/lib/python3.10/dist-packages/bumperbot_mapping/__init__.py
+[0.951s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_mapping/local/lib/python3.10/dist-packages/bumperbot_mapping/mapping_with_known_poses.py
+[1.028s] Listing '/home/behzad/ros2_ws/install/bumperbot_mapping/local/lib/python3.10/dist-packages/bumperbot_mapping'...
+[1.035s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_mapping/include/include
+[1.035s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_mapping/include/include/bumperbot_mapping
+[1.036s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_mapping/include/include/bumperbot_mapping/mapping_with_known_poses.hpp
+[1.036s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_mapping/lib/bumperbot_mapping/mapping_with_known_poses
+[1.036s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_mapping/share/bumperbot_mapping/config
+[1.037s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_mapping/share/bumperbot_mapping/config/slam_toolbox.yaml
+[1.037s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_mapping/share/bumperbot_mapping/launch
+[1.037s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_mapping/share/bumperbot_mapping/launch/slam.launch.py
+[1.037s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps
+[1.038s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_house
+[1.039s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_house/map.pgm
+[1.039s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_house/map.yaml
+[1.039s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_warehouse
+[1.039s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_warehouse/map.pgm
+[1.040s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_warehouse/map.yaml
+[1.040s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_mapping/share/bumperbot_mapping/rviz
+[1.040s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_mapping/share/bumperbot_mapping/rviz/slam.rviz
+[1.040s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_mapping/lib/bumperbot_mapping/mapping_with_known_poses.py
+[1.041s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_mapping/share/ament_index/resource_index/package_run_dependencies/bumperbot_mapping
+[1.042s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_mapping/share/ament_index/resource_index/parent_prefix_path/bumperbot_mapping
+[1.042s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/ament_prefix_path.sh
+[1.042s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/ament_prefix_path.dsv
+[1.042s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/path.sh
+[1.042s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/path.dsv
+[1.043s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_mapping/share/bumperbot_mapping/local_setup.bash
+[1.043s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_mapping/share/bumperbot_mapping/local_setup.sh
+[1.043s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_mapping/share/bumperbot_mapping/local_setup.zsh
+[1.043s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_mapping/share/bumperbot_mapping/local_setup.dsv
+[1.043s] -- Installing: /home/behzad/ros2_ws/install/bumperbot_mapping/share/bumperbot_mapping/package.dsv
+[1.043s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_mapping/share/ament_index/resource_index/packages/bumperbot_mapping
+[1.043s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_mapping/share/bumperbot_mapping/cmake/bumperbot_mappingConfig.cmake
+[1.043s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_mapping/share/bumperbot_mapping/cmake/bumperbot_mappingConfig-version.cmake
+[1.043s] -- Up-to-date: /home/behzad/ros2_ws/install/bumperbot_mapping/share/bumperbot_mapping/package.xml
+[1.119s] Invoked command in '/home/behzad/ros2_ws/build/bumperbot_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/behzad/ros2_ws/install/bumperbot_py_examples:/home/behzad/bumporbot_ws/install/bumporbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/behzad/ros2_ws/build/bumperbot_mapping

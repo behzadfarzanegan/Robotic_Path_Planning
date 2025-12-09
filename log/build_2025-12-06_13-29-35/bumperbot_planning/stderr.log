@@ -1,0 +1,8 @@
+[01m[K/home/behzad/ros2_ws/src/bumperbot_planning/src/dijkstra_planner.cpp:[m[K In member function ‘[01m[Knav_msgs::msg::Path bumperbot_planning::DijkstraPlanner::plan(const Pose&, const Pose&)[m[K’:
+[01m[K/home/behzad/ros2_ws/src/bumperbot_planning/src/dijkstra_planner.cpp:76:28:[m[K [01;35m[Kwarning: [m[Kloop variable ‘[01m[Kdir[m[K’ creates a copy from type ‘[01m[Kconst std::pair<int, int>[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wrange-loop-construct-Wrange-loop-construct]8;;[m[K]
+   76 |             for(const auto [01;35m[Kdir[m[K: explore_directions){
+      |                            [01;35m[K^~~[m[K
+[01m[K/home/behzad/ros2_ws/src/bumperbot_planning/src/dijkstra_planner.cpp:76:28:[m[K [01;36m[Knote: [m[Kuse reference type to prevent copying
+   76 |             for(const auto [01;36m[Kdir[m[K: explore_directions){
+      |                            [01;36m[K^~~[m[K
+      |                            [32m[K&[m[K
